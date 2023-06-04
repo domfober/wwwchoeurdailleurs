@@ -1,0 +1,22 @@
+.mediatext {
+    font-size: 1.2em;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: gray;
+}
+
+.date {
+    font-weight: 700;
+}
+
+.concert {
+    font-weight: 700;
+}
+
+.lieu {
+    color: #6c757d !important;
+    text-decoration: none;
+}
+.lieu:hover, .lieu:focus {
+    color: #0f283b !important;
+  }
