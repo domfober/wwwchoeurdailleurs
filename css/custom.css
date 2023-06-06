@@ -19,4 +19,14 @@
 }
 .lieu:hover, .lieu:focus {
     color: #0f283b !important;
-  }
+}
+
+.CDAtitre {
+    color: rgb(206, 70, 20) !important;
+    font-size: 4em !important;
+}
+
+.CDAsstitre {
+    color: rgb(206, 70, 20) !important;
+    font-size: 2em !important;
+}
