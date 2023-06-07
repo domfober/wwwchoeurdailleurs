@@ -30,3 +30,24 @@
     color: rgb(206, 70, 20) !important;
     font-size: 2em !important;
 }
+
+.CDAvideo {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.CDAadresse {
+    background-color: lightgrey;
+    color: black;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.blank_link {
+    color: white;
+    text-decoration: none;
+}
+.blank_link:hover {
+    color: rgb(97, 40, 40);
+}
