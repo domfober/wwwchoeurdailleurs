@@ -1,3 +1,4 @@
+
 .mediatext {
     font-size: 1.2em;
     padding-left: 10%;
@@ -50,4 +51,52 @@
 }
 .blank_link:hover {
     color: rgb(97, 40, 40);
+}
+
+.CDAcaption {
+    color: white;
+    font-size: 0.9em;
+}
+
+.CDA-bg-choeur {
+    background-color: rgb(40, 21, 21);
+}
+
+.CDA-grid {
+    flex: 0 0 auto;
+    width: 30%; 
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.CDA-photo {
+    border-radius: 50% ;
+    max-width: 50%;
+    height: auto;
+}
+
+.Camille {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+@media (min-width: 400px) {
+    .date, .concert, .lieu, .heure { font-size: 80%;}
+    .CDA-photo  { max-width: 70%; }
+    .CDA-grid   { width: 40%; }
+}
+@media (min-width: 768px) {
+    .date, .concert, .lieu, .heure  { font-size: 90%;}
+    .CDA-photo  { max-width: 80%; }
+    .CDA-grid   { width: 30%; }
+}
+@media (min-width: 992px) {
+    .date, .concert, .lieu, .heure  { font-size: 100%;}
+    .CDA-photo  { max-width: 90%; }
+    .CDA-grid   { width: 25%; }
+}
+@media (min-width: 1200px) {
+    .CDA-photo  { max-width: 100%; }
+    .CDA-grid   { width: 20%; }
 }
