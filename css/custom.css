@@ -1,6 +1,6 @@
 
 .mediatext {
-    font-size: 1.2em;
+    font-size: 1.em;
     padding-left: 10%;
     padding-right: 10%;
     color: gray;
@@ -23,13 +23,15 @@
 }
 
 .CDAtitre {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
     color: rgb(206, 70, 20) !important;
-    font-size: 4em !important;
+    font-size: 2em !important;
 }
 
 .CDAsstitre {
     color: rgb(206, 70, 20) !important;
-    font-size: 2em !important;
+    font-size: 1em !important;
 }
 
 .CDAvideo {
@@ -55,7 +57,7 @@
 
 .CDAcaption {
     color: white;
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 
 .CDA-bg-choeur {
@@ -88,8 +90,12 @@
 }
 @media (min-width: 768px) {
     .date, .concert, .lieu, .heure  { font-size: 90%;}
+    .CDAtitre { font-size: 4em !important; }
+    .CDAsstitre { font-size: 2em !important ; }
     .CDA-photo  { max-width: 80%; }
     .CDA-grid   { width: 30%; }
+    .CDAcaption { font-size: 0.9em; }
+    .mediatext { font-size: 110%; }
 }
 @media (min-width: 992px) {
     .date, .concert, .lieu, .heure  { font-size: 100%;}
